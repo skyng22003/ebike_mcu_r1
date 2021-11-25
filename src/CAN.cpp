@@ -62,7 +62,7 @@ void CANinit()
 
 void CANloop()
 {
-    canTx_buf[8];
+   uint8_t canTx_buf[8];
     can_message_t rx_frame;
     if (can_receive(&rx_frame, pdMS_TO_TICKS(1000)) == ESP_OK)
     {
