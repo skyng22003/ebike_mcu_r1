@@ -1,0 +1,5 @@
+{
+    "sketch": "ebike_mcu_r1.ino",
+    "board": "esp32:esp32:lolin32_16M",
+    "configuration": "FlashFreq=80,PartitionScheme=default,UploadSpeed=921600"
+}
